@@ -43,7 +43,7 @@ public class Shirt extends Clothing {
     
     @Override
     public String toString() {
-        return String.format ("%d %6.2 %s, by s% - %s", 
+        return String.format ("%d %6.2f %s, by %s - %s", 
                 getItemID(), getPrice(), getType(), getBrand(), getSize());
     }   // End of toString
     
