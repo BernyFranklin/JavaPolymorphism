@@ -20,6 +20,13 @@ public class JavaPolymorphism {
     // Counter for total items in cart
     private static int shoppingCartCount = 0;
     
+    // Array for inventory
+    private static final Item[] ITEM_LIST = {
+        new Book(1176, "ULYSSES", "James Joyce", 1918, 32.95, 16 ),
+        new Shirt(2443, "T-Shirt", "Guess", "M", "Blue", 14.95, 23 ),
+        new Pants(0666, "Jorts", "Dad Jeans", "30", "32", "Blue", 29.95, 14 ),
+    };   // End of ITEM_LIST
+    
     // Start Main
     public static void main(String[] args) {
         // TODO code application logic here
