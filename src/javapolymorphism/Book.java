@@ -6,7 +6,6 @@ package javapolymorphism;
 
 // Start Book
 public class Book extends Item {
-    
     // Private data members
     private static final double MAX_BOOK_PRICE = 100.00;   // Keep price lowish
     private String title;

@@ -7,7 +7,6 @@ package javapolymorphism;
 
 // Start Item
 public abstract class Item {
-    
     // Protected variables to be accessed by children classes.
     protected int itemID;
     protected double price;
